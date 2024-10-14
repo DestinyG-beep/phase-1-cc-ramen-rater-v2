@@ -15,7 +15,10 @@
 
   
   <div id="ramen-menu">
-  
+    <img src="assets/ramen/gyukotsu.jpg" alt="Ramen 1" data-name="gyukotsu" data-restaurant="Hao-ba" data-rating="8" data-comment="Delicious!" />
+    <img src="assets/ramen/kojiro.jpg" alt="Ramen 2" data-name="kojiro" data-restaurant="Zhin-shi" data-rating="9" data-comment="Tasty!" />
+    <img src="assets/ramen/naruto.jpg" alt="Ramen 3" data-name="naruto" data-restaurant="Yuan-fe" data-rating="7" data-comment="Good!" />
+    <img src="assets/ramen/nirvana.jpg" alt="Ramen 4" data-name="nirvana" data-restaurant="Ni-men hao" data-rating="6" data-comment="Good!" />
   </div>
 
 
@@ -48,6 +51,15 @@
     <label for="new-comment">Comment: </label>
     <textarea name="new-comment" name="new-comment" id="new-comment"></textarea>
     <input type="submit" id='submit-button' value="Create" />
+  </form>
+  <!--copied from canvas-->
+  <form id="edit-ramen">    
+    <h4>Update the Featured Ramen</h4>
+    <label for="rating">Rating: </label>
+    <input type="number" name="rating" id="new-rating" />
+    <label for="new-comment">Comment: </label>
+    <textarea name="new-comment" id="new-comment"></textarea>
+    <input type="submit" value="Update" />
   </form>
 
 </body>
